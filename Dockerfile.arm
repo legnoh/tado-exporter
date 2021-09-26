@@ -1,0 +1,4 @@
+FROM alpine:latest
+
+COPY tado-exporter /
+CMD ["/tado-exporter"]
